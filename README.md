@@ -64,27 +64,48 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Curviate provides a LinkedIn API for AI agents, offering REST, CLI, MCP and SDK interfaces. It enables agents to access LinkedIn data such as profiles, companies, jobs, posts, and messaging, with built-in caching, rate limits, and webhooks for real‑time events. The platform includes a CLI tool, SDKs for multiple languages, and an MCP agent‑native interface, all documented with an OpenAPI spec. Curviate aims to simplify building AI‑driven LinkedIn integrations while ensuring safety and compliance.
+Curviate offers a LinkedIn API platform tailored for AI agents, providing a RESTful interface, a command‑line tool, an MCP server, and a TypeScript SDK. Hosted in the EU with a single‑seat model, it eliminates procurement hurdles and delivers secure, low‑latency access to LinkedIn data for developers building autonomous agents and integrations.
 
-**Areas:** AI · LinkedIn · API · Automation · Agent
+**Areas:** Company · API · AI · LinkedIn · SaaS · EU-hosted
 
 ## curviate-com on APIs.io
 
 Everything profiled for curviate-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/curviate-com/](https://apis.io/providers/curviate-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (28)
 
-- [Curviate API](https://apis.io/apis/curviate-com/curviate-api/) — Agent-native LinkedIn infrastructure API.
+- [curviate-com Accounts API](https://apis.io/apis/curviate-com/curviate-com-accounts-api/) — Manage connected professional network accounts, list, inspect, update, and disconnect.
+- [curviate-com Auth API](https://apis.io/apis/curviate-com/curviate-com-auth-api/) — Connect and re-authenticate professional network accounts, hosted links, direct credential/cookie sign-in, verification checkpoints, and connect-session status.
+- [curviate-com Comments API](https://apis.io/apis/curviate-com/curviate-com-comments-api/) — Comment on posts and manage comments, comment on a post, reply to a comment, update or delete a comment, list a user's comments and a comment's replies, and…
+- [curviate-com Companies: Inbox API](https://apis.io/apis/curviate-com/curviate-com-companies-inbox-api/) — Read, search, and reply in a company page's admin message inbox: list conversations, retrieve one, read a thread's messages, filter by topic or unread, and…
+- [curviate-com Companies: Profile API](https://apis.io/apis/curviate-com/curviate-com-companies-profile-api/) — Look up a company profile and its employees, posts, jobs, followers, and the connections invitable to follow it.
+- [curviate-com Drafts API](https://apis.io/apis/curviate-com/curviate-com-drafts-api/) — Prepare posts before publishing: create, edit, list, move between accounts and delete Drafts with their media, publish one now, and list the publish records…
+- [curviate-com Feed API](https://apis.io/apis/curviate-com/curviate-com-feed-api/) — Read the connected account's home feed as agent-actionable posts, ranked or reverse-chronological.
+- [curviate-com Following API](https://apis.io/apis/curviate-com/curviate-com-following-api/) — Follow and unfollow professional-network users, and list a user's followers or who they follow.
+- [curviate-com Groups API](https://apis.io/apis/curviate-com/curviate-com-groups-api/) — List the groups a member belongs to, look up a group's detail, and browse or search a group's members.
+- [curviate-com Invites API](https://apis.io/apis/curviate-com/curviate-com-invites-api/) — Send, list, withdraw, accept, and decline connect-requests on the professional network.
+- [curviate-com Jobs API](https://apis.io/apis/curviate-com/curviate-com-jobs-api/) — Retrieve a public job posting's full detail by id.
+- [curviate-com Messaging API](https://apis.io/apis/curviate-com/curviate-com-messaging-api/) — Send messages, manage conversations, track message threads with connections, and search your inbox.
+- [curviate-com Notifications API](https://apis.io/apis/curviate-com/curviate-com-notifications-api/) — Read the connected account's notifications, and delete or mute a notification card.
+- [curviate-com Posts API](https://apis.io/apis/curviate-com/curviate-com-posts-api/) — Read, publish, and delete posts, and react to them: get a post, list a user's posts (your own or another's), create or delete a post, list and add…
+- [curviate-com Recruiter: Jobs API](https://apis.io/apis/curviate-com/curviate-com-recruiter-jobs-api/) — Manage the full job-posting lifecycle and review talent-pool applicants.
+- [curviate-com Recruiter: Messaging API](https://apis.io/apis/curviate-com/curviate-com-recruiter-messaging-api/) — Start Recruiter InMail conversations.
+- [curviate-com Recruiter: Projects API](https://apis.io/apis/curviate-com/curviate-com-recruiter-projects-api/) — Manage hiring projects and their candidate pipeline.
+- [curviate-com Recruiter: Search API](https://apis.io/apis/curviate-com/curviate-com-recruiter-search-api/) — Resolve filter parameters and search people, the talent pool, or a pasted search URL.
+- [curviate-com Recruiter: User Profile API](https://apis.io/apis/curviate-com/curviate-com-recruiter-user-profile-api/) — Look up a Recruiter-enriched member profile.
+- [curviate-com Safety API](https://apis.io/apis/curviate-com/curviate-com-safety-api/) — Read and configure an account's safety limits: per-budget-row ceilings and bands, counting windows, enforcement posture, the activity window, warm-up state…
+- [curviate-com Sales Navigator: Lists API](https://apis.io/apis/curviate-com/curviate-com-sales-navigator-lists-api/) — Manage saved account and lead lists, list, browse, and save into them.
+- [curviate-com Sales Navigator: Messaging API](https://apis.io/apis/curviate-com/curviate-com-sales-navigator-messaging-api/) — Start Sales Navigator InMail conversations.
+- [curviate-com Sales Navigator: Search API](https://apis.io/apis/curviate-com/curviate-com-sales-navigator-search-api/) — Resolve filter parameters and search people, companies, or a pasted search URL.
+- [curviate-com Sales Navigator: User Profile API](https://apis.io/apis/curviate-com/curviate-com-sales-navigator-user-profile-api/) — Look up a Sales Navigator-enriched member profile.
+- [curviate-com Search API](https://apis.io/apis/curviate-com/curviate-com-search-api/) — Search for people, companies, posts, jobs, groups, and services across the professional network.
+- [curviate-com Seats API](https://apis.io/apis/curviate-com/curviate-com-seats-api/) — Buy or manage the seats a workspace's subscription holds: add seats, and schedule or revert a seat's cancellation. Use GET /v1/accounts/seats to find a free…
+- [curviate-com Users API](https://apis.io/apis/curviate-com/curviate-com-users-api/) — Look up and manage professional-network user profiles, retrieve a profile, update your own, list connections, list the pages the account administers, check…
+- [curviate-com Webhooks API](https://apis.io/apis/curviate-com/curviate-com-webhooks-api/) — Register and manage webhooks that deliver real-time account events, and read the events an account received in the last 24 hours whether or not any webhook…
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
-
-#### AsyncAPI (1)
-
-Event-driven and webhook contracts.
-
-- [Curviate Com Webhooks](https://apis.io/asyncapis/curviate-com/curviate-com-webhooks/)
 
 #### Security (2)
 
@@ -93,11 +114,11 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Curviate Com Authentication](https://apis.io/security/curviate-com/curviate-com-authentication/)
 - [Curviate Com Domain Security](https://apis.io/security/curviate-com/curviate-com-domain-security/)
 
-#### Plans and pricing (1)
+#### OAuth scopes (1)
 
-Published plans, tiers and prices.
+The permissions the API asks for.
 
-- [Curviate Com Plans Pricing](https://apis.io/plans/curviate-com/curviate-com-plans-pricing/)
+- [Curviate Com Scopes](https://apis.io/scopes/curviate-com/curviate-com-scopes/)
 
 ## Where to find this API
 
@@ -105,40 +126,43 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://curviate.com/)
 - [Documentation](https://docs.curviate.com/)
-- [Getting started](https://docs.curviate.com/reference/mcp/quickstart)
+- [Getting started](https://docs.curviate.com/api/quick-start)
 - [API reference](https://docs.curviate.com/reference)
 - [Pricing](https://curviate.com/pricing)
+- [Sign up](https://app.curviate.com/sign-up?utm_source=curviate.com&utm_medium=website&utm_campaign=landing&utm_content=hero)
+- [Support](https://curviate.com/safety)
 - [Changelog](https://docs.curviate.com/changelog)
 - [Blog](https://curviate.com/blog)
 - [Terms of service](https://curviate.com/terms)
 - [Privacy policy](https://curviate.com/privacy)
+- [GitHub](https://github.com/Curviate)
 
 ## API Evangelist rating
 
-**Kin Score 44.5** — developing · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 45.4** — developing · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 39.0 |
-| Contract governance | 16.4 |
-| Operational transparency | 23.7 |
-| Developer ergonomics | 59.5 |
-| Access clarity | 50.5 |
+| Discoverability | 65.0 |
+| Contract quality | 45.9 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 44.7 |
 
-**Agent readiness 38.4** — agent-ready
+**Agent readiness 59.7** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | — |
+| MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
 | Event Surface Described | unknown |
 | Agent Skills | — |
 | Well Known Catalog | yes |
@@ -149,10 +173,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
 
-**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/curviate-com/](https://apis.io/providers/curviate-com/).
 
